@@ -1,0 +1,431 @@
+/* Colors 
+wisteria: #8e44ad
+#786fa6;
+#202020
+#f0f0f0
+FONTS
+Caveat
+Montserrat
+Vollkorn
+
+/*HTML ELEMNETS*/
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #F0F0F0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #202020;
+ display: flex;
+    flex-direction: column;
+    line-height: 1;
+
+}
+div{
+    overflow: hidden;
+}
+h1 {
+    font-family: Caveat;
+    font-size: 3em; /*want 90px  16x=100% 90px/16= 5.625 OR 1em=16px=100%  or root em= rem(size is not affected by parnet element*/
+    margin: 20px auto 20px 0;
+    color: #786fa6;
+    font-style: oblique;
+    padding-left: 1%;
+}
+
+h2 {
+    font-size: 1.5rem; /*40px 40px/16=2.5*/
+    color: #F0F0F0;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+   
+    color: #F0F0F0;
+    
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+    color: #786fa6;
+}
+a {
+    color: #786fa6;;
+    text-decoration: none; 
+}
+
+.footer-sm a {
+    color:#202020;
+}
+a:hover{
+    color:#F0F0F0;
+    text-shadow: 5px 2px 6px rgba(76, 48, 208, 0.53);
+}
+
+p {
+    line-height: 2;
+}
+
+
+/*CLASSES*/
+
+.top-container {
+    background-color: #786fa6;
+    margin-top: 100px;
+    width: 70%;
+     border-radius: 0 10px  10px 0;
+    padding: 20px 50px;
+    float: inline-start;
+}
+/* .sm-container{
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 75%;
+    background-color: #202020ad;
+    width: 25%;
+    border: 2px solid #786fa6;
+    border-right: 0;
+    border-radius: 10px 0 0 10px;
+    float: left;
+} */
+    
+.middle-container{
+    margin:  50px 0  ; 
+}
+
+.bottom-container{
+    background-color: #786fa6;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    border-radius: 10px;
+}
+/* NAVIGATION */
+
+.navbar{
+    background-color: #202020da;
+    height: inherit;
+        border:2px solid #786fa6;
+        border-radius: 0  0 10px 10px;
+        margin: 0 30px 10px 30px;
+        align-items: center;
+        display: flex;
+        position: fixed;
+        z-index: 5;
+        align-self: center;
+      
+}
+.navtitle {
+    float:left;
+}
+.navlinks {
+    list-style-type: none;
+    overflow: visible;
+    display: flex;
+flex-direction: row;
+float: right;
+  }
+  
+.navelement{
+    float: right;
+    margin: 15px;
+  }
+  
+.navelement a {
+    display: block;
+  }
+
+  /* SOCILA MEDIA */
+  /* ---- SOCIAL MEIA TAB ----- */
+.sm-container{
+    position: fixed;
+    z-index: 1;
+    top: 25%;
+    left: 96%;
+    background-color: #202020ad;
+    width: 5%;
+    border: 2px solid #786fa6;
+    border-right: 0;
+    border-radius: 10px 0 0 10px;
+    float: left;
+}
+.sm-container:hover{
+    position: fixed;
+    z-index: 1;
+    top: 25%;
+    left: 75%;
+    background-color: #202020ad;
+    width: 25%;
+    border: 2px solid #786fa6;
+    border-right: 0;
+    border-radius: 10px 0 0 10px;
+    float: left;
+    transition: 0.5s ease-in;
+}
+
+.smelement{
+    list-style-type: none;
+    margin: 15px;
+    overflow: visible;
+    display: flex;
+flex-direction: column;
+position: relative;
+
+}
+
+.sm-link {
+    margin: 10px;
+    
+ }
+
+/*text*/
+.intro {
+    width: auto;
+    
+}
+.profile-picture {
+    height: 300px;
+    border-radius: 100%;
+}
+.row {
+    width: 60%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+   overflow: hidden;
+}
+
+.row-vanitas {
+    text-align: right;
+    width: 50%;
+    border:2px solid #786fa6;
+    border-left: 0px;
+   border-radius: 0 10px 10px 0;
+   padding: 95px;
+   float: left;
+   margin-left: 0;
+}
+.row-webcomic {
+    text-align: left;
+    width: 70%;
+     border:2px solid #786fa6;
+     border-right: 0;
+    border-radius: 10px 0 0  10px;
+    padding: 95px;
+    float: right;
+}
+/* --------COMMMISSIONS PRICING PANEL --------- */
+
+.bg {
+    background-image: url("../CommsInfo/images/Aevy_Fairy_Sorcery.jpg");
+   width: 100%;
+   height: 1200px;
+   z-index: 0;
+   border: 2px  solid #786fa6;
+   border-radius: 20px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name:opacity;
+    animation-duration:4s;
+}
+  
+  @keyframes opacity{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+
+.content {
+    z-index: 3;
+    text-align: center;
+}
+
+.pricing-title{
+    font-weight: 400;
+    background-color: #7663b7;
+    z-index: 3;
+    position: absolute;
+}
+.panel {
+    background-color: #202020;
+    border: 2px solid #786fa6;
+    border-radius: 10px;
+    margin: 20px auto 50px auto;
+    padding: 15px 30px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+  align-items: center;
+ 
+}
+.pricing-plan {
+    border-bottom: 1px solid #7663b7;
+    margin-top: 20px;
+    width: 30%;
+}
+.terms {
+    background-color: #202020;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.pricing-plan:last-child{
+    border-bottom: none;
+    
+}
+
+.charcater-image{
+margin-bottom: 25px;
+max-width: 100%;
+align-items:center;
+}
+
+.pricing-header  {
+    color:  #7663b7;
+    font-size: 32px ;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+.pricing-features {
+margin: 50px 0 25px;
+}
+
+.pricing-features-item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #7663b7;
+}
+
+.pricing-features-item:last-child{
+    border-bottom: 1px solid #7663b7;
+}
+.pricing-price {
+    color: #7663b7;
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.pricing-button {
+    border:  1px solid #7663b7;
+    border-radius: 10px;
+    color: #7663b7;
+    display: block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+    background-color: #7663b7;
+    color: #f0f0f0;
+}
+
+
+@media (min-width: 900px) {
+.panel {
+    flex-direction: row;
+}
+.pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #7663b7;
+    padding: 25px 50px;
+}
+.pricing-plan:last-child {
+    border-right: none;
+}
+.pricing-header{
+    display: flex;
+  justify-content: center;
+} 
+ }
+ 
+ /* ------------- COMMISSIONS SECTION STYLE END ----------- */
+.row-contact{
+    height: auto;
+}
+.contact, .profile {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.copyright {
+    color: #F0F0F0;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.profile-picture {
+    height: 300px;
+}
+
+.fashion6 {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.comic-cover {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.conpic {
+    height: 100px;
+    border-radius: 100%;
+}
+
+
+.mail-me, .footer-sm {
+    margin: 20px;
+}
+/*BUTTONS*/
+.btn {
+    background: #202020;
+    color: #F0F0F0;
+    background-image: -webkit-linear-gradient(top, #786fa6, #202020);
+    background-image: -moz-linear-gradient(top, #786fa6, #202020);
+    background-image: -ms-linear-gradient(top, #786fa6, #202020);
+    background-image: -o-linear-gradient(top,  #786fa6, #202020);
+    background-image: linear-gradient(to bottom, #786fa6, #202020);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background: #F0F0F0;
+    color: #202020;
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #786fa6);
+    background-image: -moz-linear-gradient(top, #f0f0f0, #786fa6);
+    background-image: -ms-linear-gradient(top, #f0f0f0, #786fa6);
+    background-image: -o-linear-gradient(top,  #f0f0f0, #786fa6);
+    background-image: linear-gradient(to bottom, #f0f0f0, #786fa6);
+    text-decoration: none;
+    
+  }

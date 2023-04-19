@@ -1,0 +1,227 @@
+
+/* Colors 
+wisteria: #8e44ad
+#786fa6;
+#202020
+#f0f0f0
+FONTS
+Caveat
+Montserrat
+Vollkorn
+
+/*HTML ELEMNETS*/
+body {
+    margin: 0;
+    padding: 0;
+    color: #F0F0F0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #202020;
+ display: flex;
+    flex-direction: column;
+      line-height: 1; 
+      align-items: center;
+    min-height: 100vh;
+}
+
+
+
+/* NAVIGATION */
+
+.navbar{
+    background-color: #202020;
+    height: inherit;
+        border:2px solid #786fa6;
+        border-radius: 0  0 10px 10px;
+        margin: 0 30px 10px 30px;
+        align-items: center;
+}
+.navtitle {
+    float:left;
+}
+.navlinks {
+    list-style-type: none;
+    overflow: visible;
+    display: flex;
+flex-direction: row;
+float: right;
+  }
+  
+.navelement{
+    float: right;
+    margin: 15px;
+  }
+  
+.navelement a {
+    display: block;
+  }
+
+  /* SOCILA MEDIA */
+.smelement{
+    list-style-type: none;
+    margin: 15px;
+    overflow: visible;
+    display: flex;
+flex-direction: column;
+}
+.sm-link {
+    margin: 10px;
+    
+ }
+
+
+
+
+
+
+ol, ul {
+	list-style: none;
+}
+
+.bg {
+    background-image: url("CommsInfo/images/Aevy_Fairy_Sorcery.jpg");
+   width: 100%;
+   height: 1200px;
+   z-index: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.content {
+    z-index: 3;
+}
+
+.pricing-title{
+    font-weight: 400;
+    background-color: #7663b7;
+    z-index: 3;
+    position: absolute;
+}
+.panel {
+    background-color: #202020;
+    border-radius: 10px;
+    padding: 15px 30px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: static;
+
+    
+}
+.pricing-plan {
+    border-bottom: 1px solid #7663b7;
+    margin-top: 20px;
+}
+.terms {
+    background-color: #202020;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.pricing-plan:last-child{
+    border-bottom: none;
+    
+}
+
+.sm-link {
+margin: 20px 10px;
+}
+
+.top{
+    position: absolute;
+    right: 0;
+}
+
+.charcater-image{
+margin-bottom: 25px;
+width: 200px;
+max-width: 100%;
+}
+
+.pricing-header  {
+    color:  #7663b7;
+    font-size: 32px ;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+.pricing-features {
+margin: 50px 0 25px;
+}
+
+.pricing-features-item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #7663b7;
+}
+
+.pricing-features-item:last-child{
+    border-bottom: 1px solid #7663b7;
+}
+.pricing-price {
+    color: #7663b7;
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.pricing-button {
+    border:  1px solid #7663b7;
+    border-radius: 10px;
+    color: #7663b7;
+    display: block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+    background-color: #7663b7;
+    color: #f0f0f0;
+}
+
+.contact{
+    color: #7663b7;
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px; 
+}
+
+.footer{
+   font-weight: 200;
+   font-size: small;
+   
+}
+
+@media (min-width: 900px) {
+.panel {
+    flex-direction: row;
+}
+.pricing-plan {
+    border-bottom: none;
+    border-right: 1px solid #7663b7;
+    padding: 25px 50px;
+}
+.pricing-plan:last-child {
+    border-right: none;
+}
+.pricing-header{
+    display: flex;
+  justify-content: center;
+} 
+ }
