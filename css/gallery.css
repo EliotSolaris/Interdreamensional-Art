@@ -1,0 +1,38 @@
+
+.gallery-container{
+  display: inline-block;
+  width: 90%;
+  margin: 100px auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+}
+.comic-gallery{
+display: inline-block;
+text-align: center;
+ width: 90%;
+ margin: 20px auto;
+
+}
+
+.gallery-row{
+display: flex;
+flex-direction: row;
+align-items: center;
+width: auto;
+margin: 50px auto;
+
+}
+.gallery-item{
+margin: 5px;
+
+width: 33.33% ;
+}
+ .comic-image{
+width: 100%;
+} 
+
+@media screen and (max-width: 500px) {
+  .gallery-item {
+    width: 100%;
+  }
+}
