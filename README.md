@@ -1,2 +1,3 @@
 # Personal-Art-Site
-## Art portfolio web site, HTML and CSS 
+## Art portfolio web site
+  with HTML and CSS 
