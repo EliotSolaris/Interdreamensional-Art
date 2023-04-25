@@ -1,0 +1,144 @@
+@import url(variables.css);
+@import url(navbar.css);
+@import url(buttons.css);
+@import url(styleCOMMS.css);
+@import url(gallery.css);
+@import url(contactAndSocialMedia.css);
+
+/*HTML ELEMNETS*/
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--off-white);
+}
+
+div {
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Caveat;
+    font-size: 3em;
+    margin: 20px auto 20px 0;
+    color: var(--primary-color);
+    padding-left: 1%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--off-white);
+    font-weight: bold;
+    padding: 10px;
+  
+}
+
+h3 {
+    color: var(--off-white);
+
+}
+p {
+    line-height: 2;
+    color: var(--off-white);
+}
+
+ul {
+    color: var(--primary-color);
+    list-style:none;
+}
+
+nav a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*------ TOP CONTAINER ------*/
+
+.top-container {
+    background-color: var(--primary-color);
+    margin-top: 100px;
+    width: 70%;
+    border-radius: 0 10px 10px 0;
+    padding: 20px 50px;
+    float: inline-start;
+    align-items: center;
+}
+
+
+.profile-picture {
+    height: 300px;
+    border-radius: 100%;
+}
+
+
+/* ----MIDDLE ---- */
+
+.middle-container {
+    margin: 50px 0;
+}
+
+.row {
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px 0 0 10px;
+ padding: 95px;
+}
+
+
+
+.row-webcomic {
+    text-align: left;
+    width: 70%;
+    border-right: 0; 
+    float: right;
+}
+.comic-cover {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+
+}.row-vanitas {
+    text-align: right;
+    width: 50%;
+    border-left: 0px;
+    border-radius:  0 10px 10px 0;
+    float: left;
+    margin-left: 0;
+}
+.fashion6 {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+
+/* ----- FOOTER ----- */
+.copyright {
+    color: #F0F0F0;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+
+
+
+
