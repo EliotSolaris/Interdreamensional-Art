@@ -42,13 +42,12 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    color: var(--primary-color);
-
 }
 
 .sm-link {
     margin: 10px;
     color: var(--primary-color);
+  
 }
 
 
