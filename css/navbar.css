@@ -1,0 +1,39 @@
+/* NAVIGATION */
+
+
+.navbar {
+  background-color: #202020da;
+  border: 2px solid #786fa6;
+  border-radius: 0 0 10px 10px;
+  margin: 0 30px 10px 30px;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  z-index: 5;
+}
+
+.navtitle {
+  float: left;
+}
+
+.navlinks {
+  list-style-type: none;
+  overflow: visible;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.navbar a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.navelement {
+  float: right;
+  margin: 15px;
+}
+
+.navelement a {
+  display: block;
+}
