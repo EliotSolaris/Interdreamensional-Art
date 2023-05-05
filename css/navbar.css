@@ -1,9 +1,9 @@
 /* NAVIGATION */
 
-
 .navbar {
   background-color: #202020da;
-  border: 2px solid #786fa6;
+  border: 2px solid var(--primary-color);
+  width: 75%;
   border-radius: 0 0 10px 10px;
   margin: 0 30px 10px 30px;
   align-items: center;
@@ -11,6 +11,7 @@
   position: fixed;
   z-index: 5;
 }
+
 
 .navtitle {
   float: left;
@@ -35,5 +36,11 @@
 }
 
 .navelement a {
-  display: block;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    width: 90%;
+  }
 }
